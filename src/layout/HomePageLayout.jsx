@@ -11,7 +11,7 @@ export default function HomePageLayout(props){
             <div style={decorationStyle}>
 
                 <div style={titleStyle}>
-                    <img src='./HelpifyLogo.png' style={{width:'30%'}}/>
+                    <img src='./HelpifyLogo.png' style={{width:'25%'}}/>
 
                     <Txt h2 light contrast>
                         Todas as 
@@ -20,7 +20,7 @@ export default function HomePageLayout(props){
                     </Txt>
                 </div>
 
-                <img src='./HelpifyLoginImage.png' style={{width:'60%'}}/>
+                <img src='./HelpifyLoginImage.png' style={{width:'50%'}}/>
             </div>
 
         </div>
@@ -49,11 +49,10 @@ const decorationStyle = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'start',
     
     height: '100vh',
     overflow: 'hidden',
-
 }
 
 const titleStyle = {
